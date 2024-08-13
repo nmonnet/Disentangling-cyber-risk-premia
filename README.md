@@ -5,7 +5,9 @@
 
 
 
-\textbf{similitude_matrix} 				: MITRES matrix auto cosine similitude matrix. Used in clustering program to avoid loosing deterministic randomness by calling useful_function.py
+similitude_matrix				: MITRES matrix auto cosine similitude matrix. Used in clustering program to avoid loosing deterministic randomness by calling useful_function.py
+
+
 
 super_tactics_clustering.ipynb 			: contain clustering method to find relevant group of "super tactic". (self sufficient, meaning it does not need outside .py file to function)
 
