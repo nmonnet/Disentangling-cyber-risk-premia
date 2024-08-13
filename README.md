@@ -21,6 +21,8 @@ The risk premia associated with the different types of cyber risk are also manif
 Additional tests reveal that, although various types of cyber risk exist, the market does not differentiate between them and perceives them as a single aggregate cyber risk. Finally, I conduct an event analysis to evaluate the performance of a cyber-based portfolio during the massive SolarWinds cyber attack in December 2020. Contrary to previous studies, no significant conclusions can be drawn from this event regarding the performance of my cyber-based portfolios in cyber-related crises.
 
 
+## Operating files and Programs 
+
 
 | File Name                                       | Description                                                                                                                                                           |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -61,7 +63,7 @@ Additional tests reveal that, although various types of cyber risk exist, the ma
 
 
 
-
+## Additional notes and disclaimers
 
 
 Note: In the file data, you will also find output of my work:
