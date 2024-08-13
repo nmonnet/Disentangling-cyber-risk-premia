@@ -23,7 +23,7 @@ Additional tests reveal that, although various types of cyber risk exist, the ma
 
 ## Documents
 
-The associated paper will be linked here...
+The paper is in the repository: Disentangling_cyber_risk_premia.pdf 
 
 ## Data:
 
