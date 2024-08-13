@@ -1,7 +1,25 @@
 # Disentangling-cyber-risk-premia
 
+## Goal
+
+This study aims to build various cyber risk factors based on the 10-K disclosures of public firms and show that those factors are robust to all factors' benchmarks. The study is an extension of the work performed by Daniel Celeny and Loïc Maréchal: https://github.com/technometrics-lab/17-Cyber-risk_and_the_cross-section_of_stock_returns
 
 
+
+
+## Summary of the paper
+
+This thesis uses a methodology based on a machine learning algorithm to quantify firms' cyber risks based on their disclosures and a dedicated cyber corpus. The model can identify paragraphs related to determined cyber-attack types and accordingly attribute different related cyber scores to the firm. The cyber scores are unrelated to other firms' characteristics. Stocks with high cyber scores significantly outperform other stocks. The long-short cyber risk factors have positive risk premia, are robust to all factors’ benchmarks, and help price returns. Furthermore, I suggest the market does not distinguish between different types of cyber risks but instead views them as a single, aggregate cyber risk.
+
+The main focus of this paper is to disentangle the different cyber risks faced by firms and the effects on expected returns through risk premia channels. To do this, I collect financial fillings, monthly returns, and other firm characteristics for over 7000 firms listed on US stock markets between January 2007 and December 2023. I use a neural network called \quotes{Paragraph Vector} in combination with the MITRE ATT\&CK cybersecurity knowledgebase and clustering techniques to score each firm's filing based on its various types of cyber risk.
+
+I find four types of cyber attacks emerge from the textual cluster structures of MITRE ATT\&CK. I establish scores to quantify the similarity between the annual statements of firms, the 10-Ks, and the identified types of cyber attacks from the knowledgebase MITRE ATT\&CK. I find that the four \quotes{cyber} scores present no correlation with standard firms' characteristics known to help price stock returns and weak correlations with textual non-semantic variables of the annual statement (the highest, $0.36$, correlates with the length of section 1.A., in the 10-Ks). As previously observed in a study using the same neural network, the resulting aggregation of the various cyber scores shows increasing trends, with scores increasing by $0.04$ from 2007 to 2023. I also find that specific industries from the Fama-French 12-industries classification display higher cyber scores, with Business Equipment and Telephone and Television Transmission being the highest.
+
+I find that organizing firms into portfolios based on their cyber scores, with increasing cyber scores, results in progressively higher average excess returns. All average excess returns of all portfolios are statistically significant at the 1\% level, and investing in a portfolio that enters a long (short) position in the top (bottom) cyber scores firm is statistically significant at the 5\% level. The aforementioned results stay true at the 5\% and 10\% levels in the top portfolios after controlling for common risk factors. 
+
+The risk premia associated with the different types of cyber risk are also manifest at the 5\% level in the cross-section with \cite{FamaMacBeth1973} regressions. Using additional pricing factors related to cyber-based portfolios improves pricing ability. I demonstrate that joint alphas of various assets tend to decrease in \cite{GibbonsRossShanken1989} tests. Using the Bayesian approach of \cite{BarillasShanken2018}, I also demonstrate that the optimal subset of factors pricing stock returns invariably includes the cyber-based factors.
+
+Additional tests reveal that, although various types of cyber risk exist, the market does not differentiate between them and perceives them as a single aggregate cyber risk. Finally, I conduct an event analysis to evaluate the performance of a cyber-based portfolio during the massive SolarWinds cyber attack in December 2020. Contrary to previous studies, no significant conclusions can be drawn from this event regarding the performance of my cyber-based portfolios in cyber-related crises.
 
 
 
