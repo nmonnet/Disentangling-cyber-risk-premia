@@ -7,9 +7,8 @@ This study aims to build various cyber risk factors based on the 10-K disclosure
 
 
 
-## Summary of the paper
 
-This thesis uses a methodology based on a machine learning algorithm to quantify firms' cyber risks based on their disclosures and a dedicated cyber corpus. The model can identify paragraphs related to determined cyber-attack types and accordingly attribute different related cyber scores to the firm. The cyber scores are unrelated to other firms' characteristics. Stocks with high cyber scores significantly outperform other stocks. The long-short cyber risk factors have positive risk premia, are robust to all factors’ benchmarks, and help price returns. Furthermore, I suggest the market does not distinguish between different types of cyber risks but instead views them as a single, aggregate cyber risk.
+## Summary of the paper
 
 The main focus of this paper is to disentangle the different cyber risks faced by firms and the effects on expected returns through risk premia channels. To do this, I collect financial fillings, monthly returns, and other firm characteristics for over 7000 firms listed on US stock markets between January 2007 and December 2023. I use a neural network called \quotes{Paragraph Vector} in combination with the MITRE ATT\&CK cybersecurity knowledgebase and clustering techniques to score each firm's filing based on its various types of cyber risk.
 
