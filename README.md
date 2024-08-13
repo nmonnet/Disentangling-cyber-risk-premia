@@ -25,6 +25,13 @@ Additional tests reveal that, although various types of cyber risk exist, the ma
 
 The associated paper will be linked here...
 
+## Data:
+
+10-K statements from [SEC EDGAR](https://www.sec.gov/edgar).
+
+Cyber corpus from [MITRE ATTACK](https://attack.mitre.org/).
+
+Stock information from [WRDS](https://wrds-www.wharton.upenn.edu/).
 
 
 
